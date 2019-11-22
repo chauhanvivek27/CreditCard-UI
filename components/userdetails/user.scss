@@ -1,0 +1,62 @@
+$userInfo: ".user-Info";
+
+#{$userInfo}{
+
+&__user-icon {
+   background-color: red; 
+}
+&__dropdown-nav {
+    border-width: 5px;
+    border-color: red;
+    min-width: 200px;
+    z-index: 9999;
+    right: 15px;
+    float: right;
+    top:46px;
+    position: absolute;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.1);
+
+    .section {        
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;          
+        font-size: 0.7rem;
+        border-top: 1px solid #f1f1f1;
+        padding: 10px 15px 10px 15px;
+        h1 {
+            text-align: center;
+            letter-spacing: 0;
+            margin: 0;        
+            font-family: "Open Sans", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+        }
+               
+    }
+    .dropdown-personal-details{  
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 0.7rem;
+        display: block;     
+        padding: 10px 15px 10px 15px;
+        line-height: 20px;
+
+        a{
+            text-decoration: none;
+            color: #4a4a4a;
+        }
+        h1{
+            text-align: center;
+            letter-spacing: 0;
+            margin: 0;        
+            font-family: "Open Sans", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+        }   
+        &--name {        
+            text-align: center;
+            letter-spacing: 0;
+            margin-bottom: 0;
+            font-size: 0.9rem;
+        }
+       
+    }
+}
+}

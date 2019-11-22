@@ -1,0 +1,96 @@
+$color: blue;
+
+.coletxt {
+    color: $color;
+    font-size: 1rem;
+    float: left;
+    width: 20%;
+}
+.uldata{
+    float: left;
+    list-style-type: none;
+    width: 80%;
+}
+ul .heading{
+    background-color: rgb(134, 130, 130);
+    width: 80%;
+    text-align: center;
+    
+}
+
+ul li {
+    width: 80%;
+    display: flex;
+}
+.errmsg {
+    color: red;
+}
+.btnsumbit {
+    color: #fff;
+    background: #c60c30;
+    border: 0;
+    width: 100px;
+    height: 40px;
+}
+.txtfield {
+    margin-bottom: 20px;
+}
+.txtfield  span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+.txtfield  input{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inherit;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: block;
+    padding: 0 20px;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transition: all .2s ease;
+}
+
+ul li span
+{
+    padding: 0 10px 0 10px;
+    width: 100px;
+    border: 1px solid gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    width: 23%;
+    display: inline-flex;
+}
+.header {
+    height: 40px;
+    min-width: 320px;
+    box-sizing: border-box;
+    z-index: 9;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.1);
+}
+
+.user {
+    background: url('../../assets/users/user-icon.jpg')  no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: 100% auto;
+    text-align: center;    
+    margin-right: 50px;
+    float: right;
+}
+
+
+
+

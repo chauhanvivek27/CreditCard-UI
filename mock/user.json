@@ -1,0 +1,25 @@
+{
+  "status": "success",
+  "data": {
+    "twofa_type": "pin",
+    "user_name": "Vivek Singh Chauhan",
+    "user_type": "individual",
+    "email": "chauhanvivek27@gmail.com",
+    "phone": "9897852291",
+    "broker": "ZERODHA",
+    "bank_accounts": [
+      { "name": "State Bank of India", "branch": "", "account": "9972" }
+    ],
+    "dp_ids": ["6148"],
+    "products": ["CNC", "NRML", "MIS", "BO", "CO"],
+    "order_types": ["MARKET", "LIMIT", "SL", "SL-M"],
+    "exchanges": ["MF", "CDS", "BFO", "NSE", "NFO", "BSE"],
+    "pan": "113D",
+    "user_shortname": "Vivek",
+    "avatar_url": "",
+    "tags": [],
+    "password_timestamp": "2019-02-23T01:49:50.778681Z",
+    "twofa_timestamp": "2019-02-23T01:49:50.778681Z",
+    "meta": { "cobrands": [] }
+  }
+}
